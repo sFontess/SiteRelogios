@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="relogio.css" />
+    <title>Rolex Submariner Black</title>
+    <script>
+        function teste() {
+            if (form.pagamento.selectedIndex == 0 || form.nome.value == "" || form.num.value == "" || form.cidade.value == "" || form.morada.value == "" || form.postal.value == "" || !isNaN(form.nome.value) || isNaN(form.num.value) || !isNaN(form.cidade.value))
+                alert("Dados incorretos ou campos não preenchidos.")
+            else
+                alert("Pagamento bem sucedido!")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="index.html" style="margin: auto;"><img src="media/rolex-logo-1.png"></a>
+    </div>
+    <table class="content">
+        <tr>
+            <td rowspan="9"><img src="media/Relogio3.png"></td>
+            <td rowspan="9">
+                <hr style="width: 1px solid black; height: 480px;">
+            </td>
+        </tr>
+        <th colspan="2">
+            <h3 class="name" style="text-align: center;">Rolex Submariner Black</h3>
+        </th>
+        <tr>
+            <form name="form">
+                <td>Name:</td>
+                <td>
+                    <p><input type="text" name="nome" « /></p>
+                </td>
+        </tr>
+        <tr>
+            <td>Número do Cartão/
+                <br>
+                Conta:
+            </td>
+            <td>
+                <p><input type="text" name="num" /></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Cidade:</td>
+            <td>
+                <p><input type="text" name="cidade" /></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Morada:</td>
+            <td>
+                <p><input type="text" name="morada" /></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Código Postal:</td>
+            <td>
+                <p><input type="text" name="postal" /></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Pagamento:</td>
+            <td>
+                <p>
+
+                    <select name="pagamento">
+                        <option>--Selecione uma opção--</option>
+                        <option>Visa Card</option>
+                        <option>Master Card</option>
+                        <option>Paypal</option>
+                    </select>
+                </p>
+            </td>
+        </tr>
+        <tr class="preço">
+            <td>Preço: 17.000€</td>
+            <td><button onclick="teste()">Pagar</button></td>
+        </tr>
+        </form>
+    </table>
+</body>
+
+</html>

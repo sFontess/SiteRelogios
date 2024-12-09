@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav{
+    padding: 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.nav img{
+    width: 70px;
+}
+
+.content{
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+    width: 60%;
+}
+
+.content img{
+    height: 430px;
+    padding: 25px;
+}
+
+.content img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.content input{
+    width: 75%;
+    height: 25px;
+}
+
+.content select{
+    width: 75%;
+    height: 25px;
+}
+
+.name{
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.preço{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.preço button{
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 2px solid rgb(18, 120, 74);
+    width: 85px;
+    height: 60px;
+}
+
+.preço button:hover{
+    background-color: rgb(18, 120, 74);
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}

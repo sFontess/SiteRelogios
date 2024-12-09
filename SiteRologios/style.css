@@ -1,0 +1,221 @@
+body{
+/*Box model stuff*/
+    margin: 0;
+    padding: 0;
+/*Typography stuff*/
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.header{
+/*Positioning stuff*/
+    position: relative;
+    left: 0;
+    top: 0;
+/*Box model stuff*/
+    width: 100%;
+    height: 100vh;
+/*Typography stuff*/
+    font-family: "Helvetica Now Text",sans-serif;
+    font-weight: 600;
+}
+
+.nav{
+/*Display stuff*/
+    display: flex;
+    align-items: center;
+/*Box model stuff*/
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+/*Miscellaneous*/
+    backdrop-filter: blur(20px);
+}
+
+.nav:hover{
+/*Box model stuff*/
+    padding: 15px;
+    background-color: white;
+/*Manipulations stuff*/
+    transition: 0.3s;
+/*Miscellaneous*/
+    box-shadow: 0px 5px 5px 0px rgb(18, 120, 74);
+}
+
+.bg-vid{
+/*Display stuff*/
+    align-items: center;
+/*Positioning stuff*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+/*Box model stuff*/
+    width: 100%;
+    height: 100%;
+/*Miscellaneous*/
+    object-fit: cover;
+}
+
+.relogios, .login{
+/*Box model stuff*/
+    margin: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+/*Typography stuff*/
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.relogios:hover, .login:hover{
+/*Box model stuff*/
+    background-color: rgb(18, 120, 74);
+/*Typography stuff*/
+    color: white;
+/*Manipulations stuff*/
+    transition: 0.15s;
+}
+
+.nav img{
+/*Box model stuff*/
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc{
+/*Box model stuff*/
+    margin-bottom: 1%;
+}
+
+.text{
+/*Display stuff*/
+    display: flex;
+    justify-content: left;
+/*Box model stuff*/
+    width: 960px;
+    margin: 50px;
+    margin: auto;
+    padding: 20px;
+/*Typography stuff*/
+    font-size: 20px;
+    text-align: left;
+}
+
+.titulo{
+/*Box model stuff*/
+    margin: auto;
+}
+
+.content{
+/*Display stuff*/
+    display: flex;
+    width: 1070px;
+    margin: auto;
+    padding: 10px;
+    font-family: "Helvetica Now Text",sans-serif;}
+.product{
+/*Box model stuff*/
+    width: 347px;
+    height: 590px;
+    margin: auto;
+    border-radius: 16px;
+    background-color: rgb(242, 242, 242);
+}
+
+.product .image{
+/*Box model stuff*/
+    height: 450px;
+}
+
+.product img{
+/*Box model stuff*/
+    height: 295px;
+    border-radius: 16px;
+}
+
+.product .image:hover{
+/*Manipulations stuff*/
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.product .name1{
+/*Typography stuff*/
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 110, 60);
+}
+
+.product .name2{
+/*Typography stuff*/
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(72, 105, 149);
+}
+
+.product .name3{
+/*Typography stuff*/
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.product .name:hover{
+/*Manipulations stuff*/
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.product .price{
+/*Typography stuff*/
+    font-weight: 200;
+}
+
+.ad{
+/*Box model stuff*/
+    width: 100%;
+}
+
+.ad h1{
+/*Typography stuff*/
+    color: rgb(70, 120, 140);
+}
+
+.text-ad{
+/*Box model stuff*/
+    width: 960px;
+    margin: auto;
+    padding-bottom: 5px;
+/*Typography stuff*/
+    font-size: 20px;
+    text-align: left;
+}
+
+.footer{
+/*Box model stuff*/
+    background-color: rgb(30, 30, 30);
+/*Typography stuff*/
+    color: white;
+}
+
+.footer h1{
+/*Box model stuff*/
+    margin: auto;
+    padding: 15px;
+}
+
+.footer-text{
+/*Display stuff*/
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img{
+/*Box model stuff*/
+    width: 70px;
+}
