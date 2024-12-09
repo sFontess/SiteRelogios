@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="login.css" />
+    <title>Login Rolex</title>
+
+    <script>
+
+        function teste() {
+            if (form.username.value == "" || form.password.value == "")
+                alert("Dados incorretos ou campos não preenchidos.")
+            else {
+                alert("Login bem sucedido!")
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="index.html" style="margin: auto;"><img src="media/rolex-logo-white.png"></a>
+    </div>
+    <table class="table">
+        <tr>
+            <td>
+                <h1>Login</h1>
+            </td>
+        </tr>
+        <form name="form">
+            <tr>
+                <td><input type="text" placeholder="Username" name="username"></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Password" name="password"></td>
+            </tr>
+            <tr>
+                <td><button onclick="teste()">Login</button></td>
+            </tr>
+        </form>
+        <tr>
+            <td>Ainda não tem uma conta?
+                <a href="#">Criar conta</a>
+            </td>
+        </tr>
+
+
+
+    </table>
+</body>
+
+</html>

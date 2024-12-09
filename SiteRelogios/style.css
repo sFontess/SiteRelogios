@@ -1,0 +1,232 @@
+html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    top: 0;
+    /*Box model stuff*/
+    width: 100%;
+    height: 100vh;
+    /*Typography stuff*/
+    font-family: "Helvetica Now Text", sans-serif;
+    font-weight: 600;
+}
+
+.nav {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    /*Box model stuff*/
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*Miscellaneous*/
+    backdrop-filter: blur(20px);
+}
+
+.nav:hover {
+    /*Box model stuff*/
+    padding: 15px;
+    background-color: white;
+    /*Manipulations stuff*/
+    transition: 0.3s;
+    /*Miscellaneous*/
+    box-shadow: 0px 5px 5px 0px rgb(18, 120, 74);
+}
+
+.bg-vid {
+    /*Display stuff*/
+    align-items: center;
+    /*Positioning stuff*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    /*Box model stuff*/
+    width: 100%;
+    height: 100%;
+    /*Miscellaneous*/
+    object-fit: cover;
+}
+
+.relogios,
+.login {
+    /*Box model stuff*/
+    margin: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    /*Typography stuff*/
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.relogios:hover,
+.login:hover {
+    /*Box model stuff*/
+    background-color: rgb(18, 120, 74);
+    /*Typography stuff*/
+    color: white;
+    /*Manipulations stuff*/
+    transition: 0.15s;
+}
+
+.nav img {
+    /*Box model stuff*/
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc {
+    /*Box model stuff*/
+    margin-bottom: 1%;
+}
+
+.text {
+    /*Display stuff*/
+    display: flex;
+    justify-content: left;
+    /*Box model stuff*/
+    width: 960px;
+    margin: 50px;
+    margin: auto;
+    padding: 20px;
+    /*Typography stuff*/
+    font-size: 20px;
+    text-align: left;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.products {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.relogio {
+    flex: 0 0 auto;
+    background: rgb(242, 242, 242);
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.relogio img {
+    width: 10rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.name {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* .content {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 1rem;
+    font-family: "Helvetica Now Text", sans-serif;
+}
+
+.product {
+    width: 25rem;
+    height: 30rem;
+    margin: auto;
+    border-radius: 16px;
+    background-color: rgb(242, 242, 242);
+    display: inline-block;
+}
+
+.product .image {
+    height: fit-content;
+}
+
+.product img {
+    height: 15rem;
+}
+
+.product .image:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* .product .name1 {
+font-weight: 600;
+text-decoration: none;
+color: rgb(0, 110, 60);
+}
+
+.product .name2 {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(72, 105, 149);
+}
+
+.product .name3 {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.product a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+
+    &::hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+}
+
+.product .price {
+    font-weight: 200;
+}*/
+
+footer {
+    background-color: rgba(242, 242, 242);
+    padding: 1rem;
+}
+
+.showcase {
+    padding: 1rem;
+    padding-top: 2rem;
+}
