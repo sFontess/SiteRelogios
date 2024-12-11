@@ -7,14 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<script>
-  let relogio = document.body.className("relogio");
-  
-  relogio.addEventListener("click", function() {
-    alert("Clique no relogio!");
-  });
-</script>
-
 <body>
   <div class="header">
     <video src="media/RolexVideo.mp4" autoplay loop muted class="bg-vid"></video>
@@ -26,7 +18,7 @@
   </div>
 
   <div class="container">
-    <h1>Novidades</h1>
+    <p class="titulo">Novidades</p>
     <div class="products">
       <div class="relogio">
         <img src="media/Relogio1.png" alt="">
@@ -42,6 +34,12 @@
 
       <div class="relogio">
         <img src="media/Relogio2.png" alt="">
+        <div class="name">Rolex Submariner Green</div>
+        <div class="price">20.999€</div>
+      </div>
+
+      <div class="relogio">
+        <img src="media/Relogio1.png" alt="">
         <div class="name">Rolex Submariner Green</div>
         <div class="price">20.999€</div>
       </div>
@@ -156,8 +154,18 @@
   </div> -->
 
   <footer>
-    Nijdosadnas
+    footer
   </footer>
 </body>
+
+<script>
+  /* let relogio = document.getElementById("1");
+  console.log(relogio);
+
+  relogio.addEventListener("click", function () {
+    console.log("Clique no relogio!");
+    return 0;
+  }); */
+</script>
 
 </html>

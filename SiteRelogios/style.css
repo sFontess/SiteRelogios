@@ -73,8 +73,8 @@ img {
 .login {
     /*Box model stuff*/
     margin: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
     /*Typography stuff*/
     font-weight: 600;
     text-decoration: none;
@@ -85,10 +85,8 @@ img {
 .relogios:hover,
 .login:hover {
     /*Box model stuff*/
-    background-color: rgb(18, 120, 74);
-    /*Typography stuff*/
-    color: white;
-    /*Manipulations stuff*/
+    background: rgba(18, 120, 74, 1);
+    color: rgb(242, 242, 242);
     transition: 0.15s;
 }
 
@@ -116,6 +114,12 @@ img {
     /*Typography stuff*/
     font-size: 20px;
     text-align: left;
+}
+
+.titulo {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid rgb(242, 242, 242);
 }
 
 .container {
