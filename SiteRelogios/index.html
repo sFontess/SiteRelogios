@@ -8,10 +8,10 @@
 </head>
 
 <script>
-  document.querySelectorAll('*').forEach(el => {
-    if (el.scrollWidth > document.documentElement.clientWidth) {
-      console.log('Overflowing element:', el);
-    }
+  let relogio = document.body.className("relogio");
+  
+  relogio.addEventListener("click", function() {
+    alert("Clique no relogio!");
   });
 </script>
 
@@ -19,7 +19,7 @@
   <div class="header">
     <video src="media/RolexVideo.mp4" autoplay loop muted class="bg-vid"></video>
     <div class="nav">
-      <div><a href="#r" class="relogios">Relógios</a></div>
+      <div><a href="produtos.php" class="relogios">Relógios</a></div>
       <img src="media/rolex-logo-1.png">
       <div><a href="/SiteRolex/login.php" class="login">Login</a></div>
     </div>
