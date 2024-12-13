@@ -20,7 +20,7 @@
   <div class="container">
     <p class="titulo">Novidades</p>
     <div class="products">
-      <div class="relogio">
+      <div id="1" class="relogio">
         <img src="media/Relogio1.png" alt="">
         <div class="name">Rolex Submariner Green</div>
         <div class="price">20.999€</div>
@@ -152,20 +152,46 @@
     </div>
     <img src="media/Fundodetexto.png">
   </div> -->
-
+  <br>
   <footer>
-    footer
+    <div class="footer-info">
+      <p style="font-size: 2rem;">Redes Sociais</p>
+      <div class="footer-img">
+        <a style="width: 2rem;" href="https://x.com/ROLEX?ref_src=twsrc" target="_blank">
+          <img src="media/PHOTO-2024-12-13-10-41-07-removebg-preview.png" alt="">
+        </a>
+        <a style="width: 2rem;" href="https://www.instagram.com/rolex/" target="_blank">
+          <img src="media/PHOTO-2024-12-13-10-41-08-removebg-preview.png" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-info">
+      <p style="font-size: 2rem;">Informação</p>
+      <a href="/SiteRelogios/sobre.html" target="_blank">Sobre Nós</a>
+      <a href="/SiteRelogios/sobre.html#rolex" target="_blank">Sobre a Rolex</a>
+    </div>
+    <div class="footer-info">
+      <p style="font-size: 2rem;">Novidades</p>
+      <a href="/SiteRelogios/produtos.php" target="_blank">Lançamentos e Promoções</a>
+      <a href="https://newsroom.rolex.com/?cmpid=rolexcom_newsroom" target="_blank">Newsroom</a>
+    </div>
+    <div class="footer-info">
+      <p style="font-size: 2rem;">Parcerias</p>
+      <a href="https://rolex.com" target="_blank">Rolex</a>
+      <a href="https://cartier.com" target="_blank">Cartier</a>
+      <a href="https://tyffany.com" target="_blank">Tyffany & Co</a>
+    </div>
   </footer>
 </body>
 
 <script>
-  /* let relogio = document.getElementById("1");
+  let relogio = document.getElementById("1");
   console.log(relogio);
 
   relogio.addEventListener("click", function () {
-    console.log("Clique no relogio!");
-    return 0;
-  }); */
+    window.location.href = "relogio.html";
+  });
 </script>
 
 </html>
