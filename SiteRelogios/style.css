@@ -132,6 +132,7 @@ img {
     border-radius: 1rem;
     padding: 1rem;
     max-width: 100%;
+    width: 350px;
     box-sizing: border-box;
 }
 

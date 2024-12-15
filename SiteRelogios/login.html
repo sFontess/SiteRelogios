@@ -1,26 +1,27 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="login.css" />
     <title>Login Rolex</title>
-
     <script>
-
-        function teste() {
-            if (form.username.value == "" || form.password.value == "")
-                alert("Dados incorretos ou campos não preenchidos.")
-            else {
-                alert("Login bem sucedido!")
+        function teste(event) {
+            var form = document.forms["loginForm"];
+            if (form.username.value == "" || form.password.value == "") {
+                alert("Dados incorretos ou campos não preenchidos.");
+                event.preventDefault(); // Impede o envio do formulário
+            } else {
+                alert("Login bem-sucedido!");
+                var t = username;
             }
         }
     </script>
-
 </head>
 
 <body>
     <div class="nav">
-        <a href="index.html" style="margin: auto;"><img src="media/rolex-logo-white.png"></a>
+        <a href="index.php" style="margin: auto;"><img src="media/rolex-logo-white.png" alt="Rolex Logo"></a>
     </div>
     <table class="table">
         <tr>
@@ -28,15 +29,15 @@
                 <h1>Login</h1>
             </td>
         </tr>
-        <form name="form">
+        <form name="loginForm" action="login.php" method="post">
             <tr>
-                <td><input type="text" placeholder="Username" name="username"></td>
+                <td><input type="text" placeholder="Username" name="username" id="username"></td>
             </tr>
             <tr>
-                <td><input type="password" placeholder="Password" name="password"></td>
+                <td><input type="password" placeholder="Password" name="password" id="password"></td>
             </tr>
             <tr>
-                <td><button onclick="teste()">Login</button></td>
+                <td><button type="submit" onclick="teste()">Login</button></td>
             </tr>
         </form>
         <tr>
@@ -44,9 +45,6 @@
                 <a href="#">Criar conta</a>
             </td>
         </tr>
-
-
-
     </table>
 </body>
 
