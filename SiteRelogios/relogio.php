@@ -115,12 +115,12 @@ if (isset($_GET['id'])) {
 
         <div class="footer-info">
             <p style="font-size: 2rem;">Informação</p>
-            <a href="/SiteRelogios/sobre.html">Sobre Nós</a>
-            <a href="/SiteRelogios/sobre.html#">Sobre a Rolex</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="sobre.html#rolex">Sobre a Rolex</a>
         </div>
         <div class="footer-info">
             <p style="font-size: 2rem;">Novidades</p>
-            <a href="/SiteRelogios/produtos.php">Lançamentos e Promoções</a>
+            <a href="produtos.php">Lançamentos e Promoções</a>
             <a href="https://newsroom.rolex.com/?cmpid=rolexcom_newsroom">Newsroom</a>
         </div>
         <div class="footer-info">
